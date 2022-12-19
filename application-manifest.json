@@ -1,0 +1,7 @@
+{
+  "Customization_Number": "CU1234",
+  "Description": "Dummy customization created for testing pipeline.",
+  "Approvers":{
+    "build": ["admin"]
+  }
+}
