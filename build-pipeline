@@ -1,0 +1,48 @@
+pipeline {
+    
+    agent any
+    
+    stages{
+        stage('Check Build ID') {
+            steps {
+                echo "Check Build ID"
+            }
+        }
+        
+        stage('Fetch Repo') {
+            steps {
+                echo "Fetch branch, repo"
+            }
+        }
+        
+        stage('Validate Inputs') {
+            steps {
+                echo "Validate Inputs"
+            }
+        }
+        
+        stage('Request Build ID') {
+            steps {
+                echo "Request Build ID"
+            }
+        }
+        
+        stage('Create Build zip') {
+            steps {
+                echo "Create Build zip"
+            }
+        }
+        
+        stage('Copy/Replace Build zip') {
+            steps {
+                echo "Copy/Replace Build zip"
+            }
+        }
+        
+        stage('Update Build location') {
+            steps {
+                echo "Update Build location"
+            }
+        }
+    }
+}
