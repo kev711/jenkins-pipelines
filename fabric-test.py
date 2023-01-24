@@ -1,5 +1,5 @@
 from os import environ
-from fabric import Connection  
+import fabric  
 import os
 import shutil
 import re
@@ -7,7 +7,7 @@ import glob
 import subprocess
 
 def getConnection():
-    return Connection(
+    return fabric.Connection(
         host= "ios12902e.dc.ricohonline.org",
         user= "oraoper"
     )
