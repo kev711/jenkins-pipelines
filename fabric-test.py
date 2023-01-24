@@ -1,5 +1,5 @@
 from os import environ
-import fabric  
+import fabric3  
 import os
 import shutil
 import re
